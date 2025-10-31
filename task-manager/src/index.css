@@ -1,0 +1,118 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #eef2f6;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  background: url('https://wallpapercave.com/wp/wp8478134.jpg');
+  background-size: cover;
+}
+
+.app {
+  background-color: #ffffff;
+  padding: 2rem;
+  margin-top: 3rem;
+  border-radius: 10px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  width: 420px;
+  transition: box-shadow 0.3s ease;
+}
+
+.app:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+form {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1.2rem;
+  justify-content: center;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 0.6rem;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+  transition: border-color 0.2s ease;
+  text-align: center;
+}
+
+input[type="text"]:focus {
+  border-color: #0078d4;
+  outline: none;
+}
+
+button {
+  padding: 0.6rem 1.2rem;
+  background-color: #0078d4;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #005fa3;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.6rem 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+li span {
+  flex: 1;
+  margin-left: 0.6rem;
+  color: #444;
+}
+
+li input[type="checkbox"] {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+li button {
+  background-color: transparent;
+  color: #d9534f;
+  border: none;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+li button:hover {
+  color: white;
+  text-decoration: underline;
+  background-color: #db5f5b;
+
+}
+
+div>button {
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 1.5rem;
+  color: #555;
+}
